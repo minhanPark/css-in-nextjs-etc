@@ -2,16 +2,15 @@ import Image from "next/image";
 
 import { Product } from "./products";
 
-import styles from "./ProductCard.module.css";
 interface Props {
   product: Product;
 }
 
 export const ProductCard = ({ product }: Props) => {
   return (
-    <div className={styles.card}>
-      <div className={styles.cardContainer}>
-        <div className={styles.imageContainer}>
+    <div className="">
+      <div className="">
+        <div className="">
           <Image
             src={product.image}
             alt={product.title}
@@ -19,9 +18,9 @@ export const ProductCard = ({ product }: Props) => {
             height={300}
           />
         </div>
-        <div className={styles.infoContainer}>
-          <h1 className={styles.title}>{product.title}</h1>
-          <p className={styles.price}>{product.price}</p>
+        <div className="">
+          <h1 className="">{product.title}</h1>
+          <p className="">{product.price}</p>
         </div>
       </div>
     </div>

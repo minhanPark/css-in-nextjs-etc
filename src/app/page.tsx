@@ -1,13 +1,11 @@
 import PRODUCTS from "./products";
 import { ProductCard } from "./ProductCard";
 
-import styles from "./page.module.css";
-
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className="">
       {PRODUCTS.map((product) => (
-        <div className={styles.card} key={product.id}>
+        <div className="" key={product.id}>
           <ProductCard product={product} />
         </div>
       ))}
