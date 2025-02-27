@@ -22,8 +22,8 @@ export const ProductCard = ({ product }: Props) => {
           />
         </div>
         <div className="w-full pl-1 @md:w-3/4 border border-t-0 @md:border-l-0 @md:border-t-1">
-          <h1 className="text-2xl ml-1">{product.title}</h1>
-          <p className="italic">{product.price}</p>
+          <h1 className="text-2xl ml-1 content-auto">{product.title}</h1>
+          <p className="italic text-bbo">{product.price}</p>
         </div>
       </div>
     </div>

@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@utility content-auto {
+  content-visibility: auto;
+}
+
+@utility text-bbo {
+  color: greenyellow;
+}
